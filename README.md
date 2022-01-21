@@ -35,7 +35,7 @@ The readme must link to the documentation when documentation is provided.
 > : Something is not working as intended.
 
 > Security
-> : Something is comprimised.
+> : Something is compromised.
 
 > Update
 > : Something needs to be updated, including adjusting cloud things.
