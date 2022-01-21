@@ -11,6 +11,22 @@ Repository for Organisation level:
 
 Github configuration information is [here](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
 
+# General
+The above list excludes the readme, and the wiki / documentation of the product/project.
+It is important that duplication is kept to a minimum, so that these facilities (templates) can and will be kept up to date.
+
+## Readme
+The readme is not the contributing, and must not contain anything about contributing other than perhaps a link to contributing.
+Similarily, contributing must not discuss things like licencing (Licensing is specific to an individual project and it's dependencies).
+
+Similarily, again;
+The readme must introduce the product from a layman and then a developer viewpoint.
+Then detail the entire technology stack including the versions used.
+If the product/project is some kind of singular tool, then "how to build and run with examples" must be part of the readme when no further documentation is being provided.
+If the product/project is not a singular tool, then the instructions belong in documentation, which must be generated from code.
+
+The readme must link to the documentation when documentation is provided.
+
 # Issue Types
 > Work
 > : Work done that is progress towards a project/product goal, including refactoring AND optimisations (e.g. performance), including more tests.
@@ -23,6 +39,8 @@ Github configuration information is [here](https://docs.github.com/en/communitie
 
 > Update
 > : Something needs to be updated, including adjusting cloud things.
+
+Isues must address a single issue.
 
 Security has it's own issue type because these should to be added to the product's testing regiment, and it's often more important to very quickly plug the hole than to spend time creating the testing infrastructure that ensures that the hole remains plugged.
 
