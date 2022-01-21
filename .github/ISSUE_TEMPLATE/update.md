@@ -2,8 +2,8 @@
 name: Update
 about: Something needs to be updated, including adjusting cloud things (dependency/core/tooling/configuration
   must/can be updated).
-title: ''
-labels: ''
+title: Update
+labels: update
 assignees: ''
 
 ---
