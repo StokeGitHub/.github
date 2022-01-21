@@ -11,6 +11,25 @@ Repository for Organisation level:
 
 Github configuration information is [here](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
 
+# Issue Types
+> Work
+> : Work done that is progress towards a project/product goal, including refactoring AND optimisations (e.g. performance), including more tests.
+
+> Bug
+> : Something is not working as intended.
+
+> Security
+> : Something is comprimised.
+
+> Update
+> : Something needs to be updated, including adjusting cloud things.
+
+Security has it's own issue type because these should to be added to the product's testing regiment, and it's often more important to very quickly plug the hole than to spend time creating the testing infrastructure that ensures that the hole remains plugged.
+
+Update issues can be created by code-inspection tools, which also means that these need to be managed in a different way than standard work.
+
+There is no feature request issue type, issues are a terrible way to manage feature requests, other tools are specifically built for this kind of decision making.
+
 # Contributing
 Contributing must detail the process to be followed before a pull request is created.
 
@@ -31,3 +50,4 @@ In general, the change process should be something like this:
 - Wait patiently.
 
 Do NOT put technical details inside the contributing template. These belong in the readme.
+The required test pass/fail ratios and code coverage must be handled automagically, the tools in place must either prevent the creation of a pull request if these have not passed, or the pull request must be tagged as ready-for-review once the requirements have passed.
