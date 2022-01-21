@@ -2,7 +2,7 @@
 name: Security
 about: " Something is compromised."
 title: Security
-labels: ''
+labels: security
 assignees: ''
 
 ---
